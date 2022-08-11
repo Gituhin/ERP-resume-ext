@@ -1,0 +1,1 @@
+alert("The new browser extension is working! This is triggered by Main.js")
