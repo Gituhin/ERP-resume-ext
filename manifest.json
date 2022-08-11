@@ -1,7 +1,12 @@
 {
     "manifest_version": 2,
     "version": "1.0",
-    "name": "Test",
+    "name": "Code copy",
+    "description": "Helps in copying code from stackoverflow",
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
     "content_scripts": [
         {
             "matches": [
@@ -11,5 +16,12 @@
                 "main.js"
             ]
         }
+    ],
+    "icons": {
+        "48": "Logo.png",
+        "96": "Logo.png"
+    },
+    "web_accessible_resources": [
+        "rnd_img.png"
     ]
 }
