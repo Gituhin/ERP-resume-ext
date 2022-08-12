@@ -1,5 +1,3 @@
-//alert("The new browser extension is working! This is triggered by Main.js")
-
 var arr = document.getElementsByClassName("s-code-block")
 
 for (let i = 0; i < arr.length; i++) {
@@ -7,6 +5,7 @@ for (let i = 0; i < arr.length; i++) {
     btn.classList.add("copy_code_button")
     btn.appendChild(document.createTextNode("Copy"))
     arr[i].appendChild(btn)
+    
     //styling the button
     btn.style.position = "relative"
 
