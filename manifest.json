@@ -14,7 +14,6 @@
         }
     ],
     "icons": {
-        "48": "Logo.png",
         "96": "Logo.png"
     },
     "web_accessible_resources": [
