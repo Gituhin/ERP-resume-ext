@@ -1,9 +1,9 @@
 
 const userid = document.getElementById("user_id");
-userid.value = "19CE36007";
+userid.value = "<Your roll number>";
 
 const pass = document.getElementById("password");
-pass.value = "Babun#9211";
+pass.value = "<Your password>";
 
 setTimeout(() => {
     userid.blur()
@@ -14,10 +14,10 @@ setTimeout(() => {
     console.log(ques)
     var secans = document.getElementById("answer")
     // Security Question 1
-    if(ques=="Favorite Sports") secans.value="Cricket"
+    if(ques=="<your question 1>") secans.value="<answer of question 1>"
     // Security Question 2
-    else if(ques=="Favorite Fruit") secans.value = "Mango"
+    else if(ques=="<your question 2>") secans.value = "<answer of question 2>"
     //Last Question (only answer needed)
-    else secans.value = "Gorakhpur"
+    else secans.value = "<answer of question 3>"
 
 }, 600);
