@@ -1,0 +1,17 @@
+{
+    "name": "ERP Auto Login",
+    "description": "Extension for Login",
+    "version": "1.0",
+    "manifest_version": 3,
+    "author":"Tuhin Sde",
+    "content_scripts": [ {
+        "js": [ "main.js" ],
+        "matches": [ "https://erp.iitkgp.ac.in/*" ],
+        "run_at": "document_end"
+     } ],
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs"
+    ]
+  }
