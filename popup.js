@@ -1,10 +1,9 @@
-document.getElementById("test").addEventListener('click', () => {
-    console.log("Popup DOM fully loaded and parsed");
+document.getElementById("CV1").addEventListener('click', () => {
 
     chrome.tabs.query({currentWindow: true, active: true}, function(tabs){
         chrome.scripting.executeScript({
             target: {tabId: tabs[0].id, allFrames: true},
-            files: ['test.js'],
+            files: ['renderer.js'],
         })
     });
 });
