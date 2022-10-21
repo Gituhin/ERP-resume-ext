@@ -1,8 +1,11 @@
 {
   "name": "ERP Resume Prettify",
-  "description": "Prettify Resume Formatting",
-  "version": "ERP_IITKGP_V1.0",
+  "description": "Prettify ERP IIT KGP Resume Formatting",
+  "version": "1.0",
   "manifest_version": 3,
+  "background":{
+    "service_worker":"background.js"
+  },
   "action": {
       "default_title": "ERP Extension",
       "default_popup": "index.html"
@@ -10,6 +13,7 @@
   "permissions": [
       "activeTab",
       "scripting",
-      "tabs"
+      "tabs",
+      "webNavigation"
   ]
 }
